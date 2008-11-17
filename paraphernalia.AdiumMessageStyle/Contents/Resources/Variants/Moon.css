@@ -1,0 +1,9 @@
+@import url('../main.css');
+
+body {
+ /*
+ Background image is by johncarney and released as CC-BY/NC
+ http://flickr.com/photos/johncarney/145367145/
+ */
+ background-image: url('../images/moon.jpg');
+}

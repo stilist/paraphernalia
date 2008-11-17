@@ -1,0 +1,83 @@
+/*
+ All CSS & HTML released under the CC-BY/NC/SA license
+ http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en
+ If you redistribute or modify, please include a credit to stilist.
+*/
+
+* {
+ margin: 0;
+ padding: 0;
+}
+a {
+ border-bottom: 1px dotted #fff;
+ color: #ddd;
+ text-decoration: none;
+}
+body {
+ /*
+ Background image is by Pipistrula and released as CC-BY/NC/SA
+ http://flickr.com/photos/pipistrula/15543017/
+ See other variants for their license details
+ */
+ background: url('images/moss.jpeg') center center no-repeat fixed;
+ color: #ccc;
+ font: 10pt Calibri, Tahoma, sans-serif;
+ margin: 1em auto 0 auto;
+ width: 90%;
+}
+blockquote {
+ background-color: rgba(0, 0, 0, .65);
+ border-top: 1px solid rgba(255, 255, 255, .5);
+ -webkit-border-bottom-left-radius: 5px;
+ -webkit-border-bottom-right-radius: 5px;
+ line-height: 1.6em;
+ margin-bottom: 1em;
+ padding: 10px;
+ padding-top: 7px;
+}
+cite {
+ color: #fff;
+ font-size: 2em;
+ font-weight: bold;
+ height: 1em;
+ position: absolute;
+ opacity: .75;
+ overflow: hidden;
+ right: 10px;
+ text-align: right;
+ top: -4px;
+ z-index: -1;
+}
+q {
+ display: block;
+ padding-left: 55px;
+}
+q:before, q:after { content: ""; }
+
+#Chat { padding-bottom: 1px; }
+
+.incoming, .outgoing { position: relative; }
+.intraborder {
+ background: rgba(255, 255, 255, .5);
+ height: 1px;
+ margin: 7px auto;
+ width: 95%;
+}
+.status, .time {
+ font-size: .8em;
+}
+.status {
+ background-color: rgba(0, 0, 0, .35);
+ margin-bottom: 1.25em;
+ text-align: center;
+}
+.status + .status { margin-top: -.75em; }
+.time {
+ clear: left;
+ display: block;
+ float: left;
+ opacity: .9;
+ padding-top: 1px;
+ text-align: right;
+ width: 45px;
+}
