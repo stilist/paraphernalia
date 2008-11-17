@@ -15,11 +15,9 @@ a {
 }
 body {
  /*
- Background image is by Pipistrula and released as CC-BY/NC/SA
- http://flickr.com/photos/pipistrula/15543017/
- See other variants for their license details
+ Background image is by me (stilist) and released as CC-BY/NC/SA
  */
- background: url('images/moss.jpeg') center center no-repeat fixed;
+ background: url('images/sunset.jpeg') center center no-repeat fixed;
  color: #ccc;
  font: 10pt Calibri, Tahoma, sans-serif;
  margin: 1em auto 0 auto;
